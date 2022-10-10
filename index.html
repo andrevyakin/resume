@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, web, frontend">
+    <meta name="description" content="Resume website">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="card head">
+            <!-- <table class="tableHead">
+                <tr>
+                    <td>
+                        <img src="avatar.jpg" alt="Ревякин Андрей" />
+                    </td>
+                    <td>
+                        <h1>Андрей Ревякин</h1>
+                    </td>
+                </tr>
+            </table> -->
+            <img src="avatar.jpg" alt="Ревякин Андрей" />
+            <h1>Андрей Ревякин</h1>
+
+        </header>
+        <div class="card aboutMe">
+            <p>Работаю бухгалтером, хотя по образованию <strong>юрист.</strong></p>
+            <p>Программирование мое <em>хобби</em>, но может стать и основным заработком.</p>
+        </div>
+        <div class="card sss">
+            <h2>Список социальных сетей:</h2>
+            <a href="https://vk.com/andrevyakin" target="_blank">В контакте</a>
+            |
+            <a href="https://ok.ru/profile/468780743644" target="_blank">Одноклассники</a>
+            |
+            <a href="https://twitter.com/andrevyakin" target="_blank">Твитер</a>
+        </div>
+        <div class="card hobbies">
+            <h3>Мои хобби</h3>
+            <ul>
+                <li>Шахматы</li>
+                <li>Музыка</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Следственное управление г. Севастополя</td>
+                        <td>Следователь</td>
+                        <td>1998 - 2000 г.</td>
+                    </tr>
+                    <tr>
+                        <td>Горисполком г. Луганска</td>
+                        <td>Начальник юридического отдела</td>
+                        <td>2000 - 2001 г.</td>
+                    </tr>
+                    <tr>
+                        <td>Фрилансер</td>
+                        <td>Консультирую клиентов в области юриспруденции и бухгалтерии</td>
+                        <td>2001 - по настоящее время</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer class="card">
+
+            <form class="contactMe">
+                <h4>Связь со мной</h4>
+                <div class="formRow">
+                    <div class="contactMeForm">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="contactMeForm">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email">
+                    </div>
+                </div>
+                <div class="contactMeForm">
+                    <label for="messedge">Введите сообщение</label>
+                    <textarea name="" cols="100" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Отправить</button>
+                </div>
+            </form>
+        </footer>
+    </div>
+</body>
+
+</html>
